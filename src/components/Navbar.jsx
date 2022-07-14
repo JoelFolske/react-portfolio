@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import Logo from "../assets/logo.png";
 import {
   FaBars,
   FaTimes,
@@ -19,11 +18,11 @@ const Navbar = () => {
   return (
     <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300">
       <div>
-        <h1 className="text-5xl font-sans text-[#d63580]">JF</h1>
+        <h1 className="text-5xl font-sans text-[#8892b0]">JF</h1>
       </div>
 
       {/*Menu*/}
-      <ul className="hidden md:flex text-[#d63580]">
+      <ul className="hidden md:flex text-[#8892b0]">
         <li>
           <Link activeClass="active" to="home" smooth={true} duration={500}>
             Home
